@@ -1,0 +1,32 @@
+login model
+
+<div id="login" class="modallogin">
+  
+			  <form class="modal-content animate" action="include/login.inc.php" method="POST">
+				<div class="imgcontainer">
+				  <span onclick="close_log_in_form()" class="close" title="Close Modal">&times;</span>
+				  <img src="img/logo.png" alt="Avatar">
+				</div>
+
+				<div class="form-container">
+				  <label for="uname"><b>Username or Email</b></label>
+				  <input type="text" placeholder="Enter Username or Email" name="uid" required> 
+				  <div class="alert alert-warning">';
+					
+					echo '</div>
+				  <label for="psw"><b>Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="pwd" required>
+				  <div class="alert alert-warning">';
+				  
+					echo '</div>
+				  <button type="submit" class="btn btn-success" name="submit_login">Login</button>
+				  <button type="button" class="btn btn-danger" onclick="close_log_in_form()">Cancel</button>
+				  <label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				  </label>
+				  <span class="psw"> <a href="#">Forgot password ?</a></span>
+				</div>
+			  </form>
+			</div>
+
+		

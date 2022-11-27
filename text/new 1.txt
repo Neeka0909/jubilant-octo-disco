@@ -1,0 +1,47 @@
+.block-check {
+  margin-top: -350px;
+  z-index: 1;
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
+  color: #FFFF;
+  font-size: 28px;
+  padding: 30px;
+  
+  -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1); }
+  .block-check .field-icon-wrap {
+    position: relative;
+	}
+    .block-check.field-icon-wrap .form-control {
+      height: 52px !important;
+      position: relative;
+      padding-right: 40px;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      }
+    .block-check .field-icon-wrap .icon {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 15px;
+      z-index: 2; 
+	  color:#000;}
+    .block-check .field-icon-wrap select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 100%; }
+  .block-check .btn {
+    height: 52px;
+    color: #fff; }
+	/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 990px){
+ .block-check {
+  margin-top: -76%;
+	}
+	
+	
+
+}
